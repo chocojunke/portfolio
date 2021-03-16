@@ -393,6 +393,11 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+.my-work__title {
+    color: var(--clr-accent);
+    padding-bottom: 1em;
+}
+
 .portfolio-item {
     background: var(--clr-dark);
     overflow: hidden;
@@ -470,11 +475,13 @@ header {
     margin: 0 auto;
 }
 
-.portfolio-item-individual p {
-    max-width: 600px;
+.portfolio-item-individual p,
+.portfolio-item-individual img {
     margin-left: auto;
     margin-right: auto;
+    max-width: 600px;
 }
+
 
 .portfolio-item-individual p:nth-of-type(1) {
     font-size: var(--fs-h3);
