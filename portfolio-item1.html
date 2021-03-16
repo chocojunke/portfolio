@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        crossorigin="anonymous"">
+    
+    <link
+        href="
+        https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+    <header>
+        <!--- NAVBAR -->
+        <div class=" logo">
+            <a href="index.html"><img src="assets/images/logo.png" alt=""></a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="index.html">Home</a></li>
+                <li class="nav__item"><a class="nav__link" href="index.html#services">My Services</a></li>
+                <li class="nav__item"><a class="nav__link" href="index.html#about">About me</a></li>
+                <li class="nav__item"><a class="nav__link" href="index.html#work">My work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- INTRO -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            PILLS <strong>DISPENSER</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">WEB DEVELOPMENT</p>
+        <img src="assets/images/portfolio-02.png" alt="One of my pictures" class="intro__image">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>Arduino and 3D Printing</p>
+        <img src="assets/images/portfolio-02.png" alt="">
+        <p>Development of a pills dispenser with arduino and its components.</p>
+        <p>The dispenser times were entered in the dispenser and saved in a SQL Database.</p>
+        <p>At the dispense time, the dispenser would make a noise and after the user pushed a button, the right quantity
+            of pills were dropped.</p>
+        <p>The physical machine was 3d designed by the group and printed at home.</p>
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <!-- My email -->
+        <a href="mailto:paulojunke@hotmail.com" class="footer_link">paulojunke@hotmail.com</a>
+        <!-- Redes sociais -->
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://www.linkedin.com/in/paulo-santos-384631197/" class="social-list__link">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://github.com/chocojunke" class="social-list__link">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.instagram.com/paulo9santos/" class="social-list__link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>

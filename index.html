@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        crossorigin="anonymous"">
+
+        
+    <link
+        href="
+        https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+    <header>
+        <!--- NAVBAR -->
+        <div class=" logo">
+            <a href="index.html"><img src="assets/images/logo.png" alt=""></a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="index.html">Home</a></li>
+                <li class="nav__item"><a class="nav__link" href="index.html#services">My Services</a></li>
+                <li class="nav__item"><a class="nav__link" href="index.html#about">About me</a></li>
+                <li class="nav__item"><a class="nav__link" href="index.html#work">My work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- INTRO -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Paulo Santos.</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">FULL STACK DEV</p>
+        <img src="assets/images/foto.jpg" alt="One of my pictures" class="intro__image">
+    </section>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>E-commerce</h3>
+                <p>Create your custom website for e-commerce, with your own specifications and products.</p>
+            </div> <!-- Close service -->
+            <div class="service">
+                <h3>API</h3>
+                <p>Build you REST API from scratch with specific requirements using the latest technologies.</p>
+            </div> <!-- Close service -->
+            <div class="service">
+                <h3>Portfolio</h3>
+                <p>I can build your portfolio or every other website you need and provide all the source code.</p>
+            </div> <!-- Close service -->
+        </div> <!-- Close services -->
+
+        <a href="#work" class="btn">My work</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h2 class="section__tittle section__title--about">Who am I</h2>
+        <p class="section__subtitle section__subtitle--about">Programmer - Porto</p>
+
+        <div class="about-me__body">
+            <p>I have a bachelor in Biomedical Engineering and I'm currently in the Master's degree. Started loving
+                programming in the university and looking for a job in the area at the moment.</p>
+            <p>I'm always looking to learn more, develop my skills and work in projects.</p>
+            <p>Outside of my professional and academical area, I'm somebody who loves football <i
+                    class="far fa-futbol"></i> and sports in general, traveling, watching series, documentaries and
+                movies and traveling.</p>
+        </div>
+
+        <img class="about-me__image" src="assets/images/foto2.png" alt="Paulo">
+
+    </section>
+
+    <!-- Work -->
+    <section class="my-work" id="work">
+        <h2 class="my-work__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">I didn't start my career a long time ago, and that's the
+            reason why I don't have many projects. Most of my projects are academic or personal projects.</p>
+
+        <div class="portfolio">
+            <!-- Portfolio 01 -->
+            <a href="portfolio-item0.html" class="portfolio-item">
+                <img src="assets/images/portfolio-01.jpg" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio 02 -->
+            <a href="portfolio-item1.html" class="portfolio-item">
+                <img src="assets/images/portfolio-02.png" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio 03 -->
+            <a href="portfolio-item2.html" class="portfolio-item">
+                <img src="assets/images/portfolio-03.jpg" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <!-- My email -->
+        <a href="mailto:paulojunke@hotmail.com" class="footer_link">paulojunke@hotmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://www.linkedin.com/in/paulo-santos-384631197/" class="social-list__link">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://github.com/chocojunke" class="social-list__link">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.instagram.com/paulo9santos/" class="social-list__link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
